@@ -1,0 +1,58 @@
+@import url(https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDFqQjdpZnExNXRSa2RKNG1SUzR1ZkF3d0p3d3xBQ3Jtc0trNnl2LVdHTVJwbW1zOERrcVdocV9nc1VuQU1CYm5pajBId1FBbEY5U3ptT2I3Y3dCbVh6dlJaSlM0UjUwajc1WGprZzdMblMtMFZkeHVrSTRwU0E4LVdFcVZRVjJTMUgweFZPR0k5c0NBN0NfTnoxQQ&q=https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DOpen%2BSans%26display%3Dswap%27%29%3B&v=33l_zxzPR2g);
+
+::-webkit-input-placeholder{
+    color: #79e4a6;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(#79e4a6, #1bc296);
+}
+
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #0a1b2d;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    color: #f0f5fb;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0px;
+    transition: .5s;
+    font-family: 'Open Sans';
+}
+
+.search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0a1b2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+    transition: 1s;
+}
+
+.search-box:hover > .search-btn{
+    background: whitesmoke;
+    transition: 1.5s;
+}
